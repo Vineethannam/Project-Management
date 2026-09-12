@@ -1,0 +1,11 @@
+ALTER TABLE account ADD COLUMN auth_version INTEGER NOT NULL DEFAULT 0;
+CREATE TABLE password_reset (
+ token_hash VARCHAR(64) PRIMARY KEY,
+ user_id VARCHAR(64) NOT NULL REFERENCES account(user_id) ON DELETE CASCADE,
+ expires_at TIMESTAMP WITH TIME ZONE NOT NULL
+);
+CREATE TABLE auth_rate_limit (
+ bucket VARCHAR(80) PRIMARY KEY,
+ attempts INTEGER NOT NULL,
+ expires_at TIMESTAMP WITH TIME ZONE NOT NULL
+);

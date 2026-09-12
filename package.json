@@ -1,0 +1,10 @@
+{
+  "name": "projectsphere-workspace",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "node frontend/scripts/workspace.mjs dev",
+    "build": "node frontend/scripts/workspace.mjs build"
+  }
+}

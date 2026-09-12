@@ -1,0 +1,1176 @@
+{
+  "projects": [
+    {
+      "id": "p1",
+      "title": "HRMS Platform",
+      "status": "Active",
+      "version": 0,
+      "description": "A better employee experience, from onboarding to everyday work.",
+      "teamIds": [
+        "team1",
+        "team2"
+      ],
+      "managerIds": [
+        "u1",
+        "u2"
+      ],
+      "color": "emerald",
+      "startDate": "2026-09-01",
+      "dueDate": "2026-10-15",
+      "bugsEnabled": true,
+      "budget": 250000,
+      "technology": "React, Spring Boot",
+      "client": "Internal"
+    },
+    {
+      "id": "p2",
+      "title": "Recruit HQ",
+      "status": "Active",
+      "version": 0,
+      "description": "Connected recruitment operations for ambitious staffing teams.",
+      "teamIds": [
+        "team1"
+      ],
+      "managerIds": [
+        "u1",
+        "u2"
+      ],
+      "color": "blue",
+      "startDate": "2026-09-01",
+      "dueDate": "2026-11-01",
+      "bugsEnabled": true,
+      "budget": 250000,
+      "technology": "React, Spring Boot",
+      "client": "Internal"
+    },
+    {
+      "id": "p3",
+      "title": "Design System",
+      "status": "Planning",
+      "version": 0,
+      "description": "Shared foundations for consistent, accessible products.",
+      "teamIds": [
+        "team2"
+      ],
+      "managerIds": [
+        "u1",
+        "u5"
+      ],
+      "color": "violet",
+      "startDate": "2026-09-01",
+      "dueDate": "2026-10-01",
+      "bugsEnabled": false,
+      "budget": 250000,
+      "technology": "React, Spring Boot",
+      "client": "Internal"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Employee registration API",
+      "status": "In progress",
+      "version": 0,
+      "projectId": "p1",
+      "ownerId": "u3",
+      "priority": "High",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "storyPoints": 5,
+      "dueDate": "2026-09-12",
+      "sprintId": "s1",
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": null,
+      "dependencies": [],
+      "createdBy": "u2"
+    },
+    {
+      "id": "t2",
+      "title": "Build the asset request form",
+      "status": "Review",
+      "version": 0,
+      "projectId": "p1",
+      "ownerId": "u4",
+      "priority": "High",
+      "estimatedHours": 6,
+      "actualHours": 0,
+      "storyPoints": 3,
+      "dueDate": "2026-09-11",
+      "sprintId": "s1",
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": null,
+      "dependencies": [],
+      "createdBy": "u2"
+    },
+    {
+      "id": "t3",
+      "title": "Reporting hierarchy validation",
+      "status": "To do",
+      "version": 0,
+      "projectId": "p1",
+      "ownerId": "u3",
+      "priority": "Critical",
+      "estimatedHours": 5,
+      "actualHours": 0,
+      "storyPoints": 3,
+      "dueDate": "2026-09-14",
+      "sprintId": "s1",
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": null,
+      "dependencies": [],
+      "createdBy": "u2"
+    },
+    {
+      "id": "t4",
+      "title": "Onboarding flow review",
+      "status": "Done",
+      "version": 0,
+      "projectId": "p1",
+      "ownerId": "u2",
+      "priority": "Medium",
+      "estimatedHours": 3,
+      "actualHours": 3,
+      "storyPoints": 2,
+      "dueDate": "2026-09-09",
+      "sprintId": "s1",
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": "2026-09-08T16:00:00Z",
+      "dependencies": [],
+      "createdBy": "u2"
+    },
+    {
+      "id": "t5",
+      "title": "Employee profile components",
+      "status": "Done",
+      "version": 0,
+      "projectId": "p1",
+      "ownerId": "u4",
+      "priority": "Medium",
+      "estimatedHours": 5,
+      "actualHours": 5,
+      "storyPoints": 3,
+      "dueDate": "2026-09-08",
+      "sprintId": "s1",
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": "2026-09-08T16:00:00Z",
+      "dependencies": [],
+      "createdBy": "u2"
+    },
+    {
+      "id": "t6",
+      "title": "Role permission matrix",
+      "status": "Testing",
+      "version": 0,
+      "projectId": "p1",
+      "ownerId": "u4",
+      "priority": "High",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "storyPoints": 5,
+      "dueDate": "2026-09-12",
+      "sprintId": "s1",
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": null,
+      "dependencies": [],
+      "createdBy": "u2"
+    },
+    {
+      "id": "t7",
+      "title": "Candidate intake endpoints",
+      "status": "In progress",
+      "version": 0,
+      "projectId": "p2",
+      "ownerId": "u3",
+      "priority": "High",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "storyPoints": 5,
+      "dueDate": "2026-09-15",
+      "sprintId": null,
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": null,
+      "dependencies": [],
+      "createdBy": "u2"
+    },
+    {
+      "id": "t8",
+      "title": "Referral link expiration",
+      "status": "Backlog",
+      "version": 0,
+      "projectId": "p2",
+      "ownerId": "u3",
+      "priority": "Medium",
+      "estimatedHours": 5,
+      "actualHours": 0,
+      "storyPoints": 3,
+      "dueDate": "2026-09-18",
+      "sprintId": null,
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": null,
+      "dependencies": [],
+      "createdBy": "u2"
+    },
+    {
+      "id": "t9",
+      "title": "Accessible form patterns",
+      "status": "In progress",
+      "version": 0,
+      "projectId": "p3",
+      "ownerId": "u6",
+      "priority": "Medium",
+      "estimatedHours": 6,
+      "actualHours": 0,
+      "storyPoints": 3,
+      "dueDate": "2026-09-16",
+      "sprintId": null,
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": null,
+      "dependencies": [],
+      "createdBy": "u2"
+    },
+    {
+      "id": "t10",
+      "title": "Navigation component specs",
+      "status": "To do",
+      "version": 0,
+      "projectId": "p3",
+      "ownerId": "u6",
+      "priority": "Low",
+      "estimatedHours": 4,
+      "actualHours": 0,
+      "storyPoints": 2,
+      "dueDate": "2026-09-18",
+      "sprintId": null,
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": null,
+      "dependencies": [],
+      "createdBy": "u2"
+    },
+    {
+      "id": "t11",
+      "title": "Audit log integration",
+      "status": "To do",
+      "version": 0,
+      "projectId": "p1",
+      "ownerId": "u3",
+      "priority": "High",
+      "estimatedHours": 4,
+      "actualHours": 0,
+      "storyPoints": 3,
+      "dueDate": "2026-09-13",
+      "sprintId": "s1",
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": null,
+      "dependencies": [],
+      "createdBy": "u2"
+    },
+    {
+      "id": "t12",
+      "title": "Document upload validation",
+      "status": "Done",
+      "version": 0,
+      "projectId": "p1",
+      "ownerId": "u4",
+      "priority": "Medium",
+      "estimatedHours": 5,
+      "actualHours": 5,
+      "storyPoints": 3,
+      "dueDate": "2026-09-09",
+      "sprintId": "s1",
+      "description": "Implement the agreed acceptance criteria, add validation, and submit for review.",
+      "completedAt": "2026-09-08T16:00:00Z",
+      "dependencies": [],
+      "createdBy": "u2"
+    }
+  ],
+  "bugs": [
+    {
+      "id": "b1",
+      "title": "Date picker loses keyboard focus",
+      "status": "To do",
+      "version": 0,
+      "projectId": "p1",
+      "ownerId": "u4",
+      "priority": "High",
+      "severity": "Major",
+      "description": "After selecting a date, focus returns to the top of the page.",
+      "dueDate": "2026-09-12"
+    }
+  ],
+  "sprints": [
+    {
+      "id": "s1",
+      "title": "Sprint 12 \u2014 Employee experience",
+      "status": "Active",
+      "version": 0,
+      "projectId": "p1",
+      "startDate": "2026-09-07",
+      "dueDate": "2026-09-20",
+      "goal": "Complete the employee onboarding journey",
+      "capacity": 80
+    },
+    {
+      "id": "s2",
+      "title": "Sprint 04 \u2014 Candidate intake",
+      "status": "Planned",
+      "version": 0,
+      "projectId": "p2",
+      "startDate": "2026-09-14",
+      "dueDate": "2026-09-27",
+      "goal": "Deliver referral and candidate intake",
+      "capacity": 60
+    }
+  ],
+  "milestones": [
+    {
+      "id": "m1",
+      "title": "Onboarding release",
+      "status": "In progress",
+      "version": 0,
+      "projectId": "p1",
+      "dueDate": "2026-09-20",
+      "description": "Registration, profile and asset requests ready for review"
+    }
+  ],
+  "risks": [
+    {
+      "id": "risk1",
+      "title": "Email provider integration delay",
+      "status": "Open",
+      "version": 0,
+      "projectId": "p1",
+      "ownerId": "u2",
+      "probability": "Medium",
+      "impact": "High",
+      "description": "Confirm the provider before release.",
+      "mitigation": "Use staging email capture until credentials are ready"
+    }
+  ],
+  "standups": [],
+  "retrospectives": [],
+  "users": [
+    {
+      "id": "u1",
+      "title": "Vineeth Annam",
+      "status": "Active",
+      "version": 0,
+      "email": "vineeth@example.test",
+      "roleId": "role-admin",
+      "reportingTo": null,
+      "scope": "organization",
+      "position": "Workspace administrator",
+      "department": "Engineering",
+      "capacity": 40
+    },
+    {
+      "id": "u2",
+      "title": "Priya Sharma",
+      "status": "Active",
+      "version": 0,
+      "email": "priya@example.test",
+      "roleId": "role-lead",
+      "reportingTo": "u1",
+      "scope": "hierarchy",
+      "position": "Engineering lead",
+      "department": "Engineering",
+      "capacity": 40
+    },
+    {
+      "id": "u3",
+      "title": "Rahul Kumar",
+      "status": "Active",
+      "version": 0,
+      "email": "rahul@example.test",
+      "roleId": "role-employee",
+      "reportingTo": "u2",
+      "scope": "hierarchy",
+      "position": "Backend developer",
+      "department": "Engineering",
+      "capacity": 40
+    },
+    {
+      "id": "u4",
+      "title": "Ananya Rao",
+      "status": "Active",
+      "version": 0,
+      "email": "ananya@example.test",
+      "roleId": "role-employee",
+      "reportingTo": "u2",
+      "scope": "hierarchy",
+      "position": "Frontend developer",
+      "department": "Engineering",
+      "capacity": 40
+    },
+    {
+      "id": "u5",
+      "title": "Arjun Mehta",
+      "status": "Active",
+      "version": 0,
+      "email": "arjun@example.test",
+      "roleId": "role-lead",
+      "reportingTo": "u1",
+      "scope": "hierarchy",
+      "position": "Product lead",
+      "department": "Engineering",
+      "capacity": 40
+    },
+    {
+      "id": "u6",
+      "title": "Sneha Reddy",
+      "status": "Active",
+      "version": 0,
+      "email": "sneha@example.test",
+      "roleId": "role-employee",
+      "reportingTo": "u5",
+      "scope": "hierarchy",
+      "position": "Product designer",
+      "department": "Engineering",
+      "capacity": 40
+    }
+  ],
+  "teams": [
+    {
+      "id": "team1",
+      "title": "Platform engineering",
+      "status": "Active",
+      "version": 0,
+      "memberIds": [
+        "u2",
+        "u3",
+        "u4"
+      ],
+      "leadId": "u2",
+      "description": "Core APIs, infrastructure and frontend"
+    },
+    {
+      "id": "team2",
+      "title": "Product & design",
+      "status": "Active",
+      "version": 0,
+      "memberIds": [
+        "u5",
+        "u6",
+        "u4"
+      ],
+      "leadId": "u5",
+      "description": "Product experience and design systems"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dep1",
+      "title": "Engineering",
+      "status": "Active",
+      "version": 0,
+      "description": "Product engineering and delivery"
+    }
+  ],
+  "roles": [
+    {
+      "id": "role-admin",
+      "title": "Administrator",
+      "status": "Active",
+      "version": 0,
+      "permissions": {
+        "projects": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "tasks": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "bugs": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "sprints": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "milestones": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "risks": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "standups": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "retrospectives": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "users": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "teams": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "departments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "roles": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "attendance": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "assignments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "courses": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "enrollments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "assessments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "attempts": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "skills": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "reviews": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "announcements": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "comments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "documents": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "notifications": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "audit": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "settings": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "reports": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        }
+      },
+      "description": "Administrator access template"
+    },
+    {
+      "id": "role-lead",
+      "title": "Team Lead",
+      "status": "Active",
+      "version": 0,
+      "permissions": {
+        "projects": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "tasks": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "bugs": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "sprints": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "milestones": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "risks": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "standups": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "retrospectives": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "users": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "teams": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "departments": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "roles": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "attendance": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "assignments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "courses": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "enrollments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "assessments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "attempts": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "skills": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "reviews": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "announcements": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "comments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "documents": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "notifications": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "audit": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "settings": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "reports": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        }
+      },
+      "description": "Team Lead access template"
+    },
+    {
+      "id": "role-employee",
+      "title": "Developer",
+      "status": "Active",
+      "version": 0,
+      "permissions": {
+        "projects": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "tasks": {
+          "create": false,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "bugs": {
+          "create": false,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "sprints": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "milestones": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "risks": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "standups": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "retrospectives": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "users": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "teams": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "departments": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "roles": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "attendance": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "assignments": {
+          "create": false,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "courses": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "enrollments": {
+          "create": false,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "assessments": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "attempts": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "skills": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "reviews": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "announcements": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "comments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "documents": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "notifications": {
+          "create": false,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "audit": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "settings": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "reports": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        }
+      },
+      "description": "Developer access template"
+    }
+  ],
+  "attendance": [],
+  "assignments": [
+    {
+      "id": "a1",
+      "title": "Research PostgreSQL indexing",
+      "status": "Assigned",
+      "version": 0,
+      "ownerId": "u3",
+      "createdBy": "u2",
+      "description": "Explain indexes for project, assignee and status filters.",
+      "dueDate": "2026-09-22",
+      "priority": "Medium",
+      "expectedOutput": "A short report with example queries"
+    }
+  ],
+  "courses": [
+    {
+      "id": "c1",
+      "title": "Secure APIs with Spring Boot",
+      "status": "Published",
+      "version": 0,
+      "description": "Authentication, permission checks and secure data access.",
+      "category": "Backend",
+      "difficulty": "Intermediate",
+      "duration": 120,
+      "lessons": [
+        {
+          "title": "Authentication foundations",
+          "content": "Authentication identifies the user. Authorization determines the actions and records they can access. Keep these checks separate."
+        },
+        {
+          "title": "Record-level permissions",
+          "content": "Filter every read by ownership or project membership. Apply the same scope to details, files, exports and aggregate reports."
+        },
+        {
+          "title": "Secure updates",
+          "content": "Validate the requested fields and workflow transition. Read permission does not imply update permission."
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "title": "Accessible React interfaces",
+      "status": "Published",
+      "version": 0,
+      "description": "Build interfaces that work with keyboards and assistive technology.",
+      "category": "Frontend",
+      "difficulty": "Intermediate",
+      "duration": 90,
+      "lessons": [
+        {
+          "title": "Forms and labels",
+          "content": "Every input needs an accessible name. Associate error messages with the relevant control and preserve focus after submission."
+        },
+        {
+          "title": "Keyboard navigation",
+          "content": "Interactive elements must work without a pointer. Use native buttons and accessible dialog components."
+        }
+      ]
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "en1",
+      "title": "Secure APIs with Spring Boot",
+      "status": "In progress",
+      "version": 0,
+      "courseId": "c1",
+      "ownerId": "u3",
+      "completedLessons": [
+        0
+      ],
+      "dueDate": "2026-09-25"
+    },
+    {
+      "id": "en2",
+      "title": "Accessible React interfaces",
+      "status": "Assigned",
+      "version": 0,
+      "courseId": "c2",
+      "ownerId": "u4",
+      "completedLessons": [],
+      "dueDate": "2026-09-25"
+    }
+  ],
+  "assessments": [
+    {
+      "id": "as1",
+      "title": "Authorization fundamentals",
+      "status": "Published",
+      "version": 0,
+      "courseId": "c1",
+      "passingScore": 70,
+      "questions": [
+        {
+          "prompt": "Where must authorization be enforced?",
+          "options": [
+            "Only in the UI",
+            "On the backend for every protected operation",
+            "Only at login"
+          ],
+          "answer": 1
+        },
+        {
+          "prompt": "Does read permission grant edit access?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "answer": 1
+        }
+      ],
+      "maxAttempts": 3
+    }
+  ],
+  "attempts": [],
+  "skills": [
+    {
+      "id": "sk1",
+      "title": "Java",
+      "status": "Advanced",
+      "version": 0,
+      "ownerId": "u3"
+    },
+    {
+      "id": "sk2",
+      "title": "React",
+      "status": "Advanced",
+      "version": 0,
+      "ownerId": "u4"
+    },
+    {
+      "id": "sk3",
+      "title": "Accessibility",
+      "status": "Intermediate",
+      "version": 0,
+      "ownerId": "u6"
+    }
+  ],
+  "reviews": [],
+  "announcements": [
+    {
+      "id": "an1",
+      "title": "Sprint 12 is underway",
+      "status": "Published",
+      "version": 0,
+      "projectId": "p1",
+      "description": "Focus on the employee onboarding journey. Add blockers to your daily stand-up."
+    }
+  ],
+  "comments": [
+    {
+      "id": "co1",
+      "title": "Review the validation messages",
+      "status": "Active",
+      "version": 0,
+      "entityKind": "tasks",
+      "entityId": "t2",
+      "projectId": "p1",
+      "ownerId": "u2",
+      "description": "Please check the required-field messages before moving this to testing.",
+      "createdAt": "2026-09-10T09:30:00Z"
+    }
+  ],
+  "documents": [],
+  "notifications": [
+    {
+      "id": "n1",
+      "title": "Sprint 12 is underway",
+      "status": "Unread",
+      "version": 0,
+      "ownerId": "u1",
+      "description": "Employee experience sprint is now active.",
+      "createdAt": "2026-09-10T08:00:00Z"
+    }
+  ],
+  "audit": [],
+  "settings": [
+    {
+      "id": "settings1",
+      "title": "Workspace settings",
+      "status": "Active",
+      "version": 0,
+      "bugsEnabled": true,
+      "taskWeight": 30,
+      "deliveryWeight": 20,
+      "sprintWeight": 20,
+      "qualityWeight": 15,
+      "learningWeight": 10,
+      "collaborationWeight": 5
+    }
+  ],
+  "reports": []
+}

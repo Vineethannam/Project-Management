@@ -1,0 +1,546 @@
+{
+  "roles": [
+    {
+      "id": "role-admin",
+      "title": "Administrator",
+      "status": "Active",
+      "version": 0,
+      "permissions": {
+        "projects": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "tasks": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "bugs": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "sprints": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "milestones": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "risks": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "standups": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "retrospectives": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "users": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "teams": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "departments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "roles": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "attendance": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "assignments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "courses": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "enrollments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "assessments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "attempts": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "skills": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "reviews": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "announcements": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "comments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "documents": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "notifications": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "audit": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "settings": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "reports": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        }
+      },
+      "description": "Administrator access template"
+    },
+    {
+      "id": "role-lead",
+      "title": "Team Lead",
+      "status": "Active",
+      "version": 0,
+      "permissions": {
+        "projects": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "tasks": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "bugs": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "sprints": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "milestones": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "risks": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "standups": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "retrospectives": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "users": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "teams": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "departments": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "roles": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "attendance": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "assignments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "courses": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "enrollments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "assessments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "attempts": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "skills": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "reviews": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "announcements": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "comments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "documents": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "notifications": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        },
+        "audit": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "settings": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "reports": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": true
+        }
+      },
+      "description": "Team Lead access template"
+    },
+    {
+      "id": "role-employee",
+      "title": "Developer",
+      "status": "Active",
+      "version": 0,
+      "permissions": {
+        "projects": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "tasks": {
+          "create": false,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "bugs": {
+          "create": false,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "sprints": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "milestones": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "risks": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "standups": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "retrospectives": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "users": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "teams": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "departments": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "roles": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "attendance": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "assignments": {
+          "create": false,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "courses": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "enrollments": {
+          "create": false,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "assessments": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "attempts": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "skills": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "reviews": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "announcements": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        },
+        "comments": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "documents": {
+          "create": true,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "notifications": {
+          "create": false,
+          "read": true,
+          "update": true,
+          "delete": false
+        },
+        "audit": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "settings": {
+          "create": false,
+          "read": false,
+          "update": false,
+          "delete": false
+        },
+        "reports": {
+          "create": false,
+          "read": true,
+          "update": false,
+          "delete": false
+        }
+      },
+      "description": "Developer access template"
+    }
+  ],
+  "settings": [
+    {
+      "id": "settings1",
+      "title": "Workspace settings",
+      "status": "Active",
+      "version": 0,
+      "bugsEnabled": true,
+      "taskWeight": 30,
+      "deliveryWeight": 20,
+      "sprintWeight": 20,
+      "qualityWeight": 15,
+      "learningWeight": 10,
+      "collaborationWeight": 5
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "title": "Workspace administrator",
+      "status": "Active",
+      "version": 0,
+      "email": "",
+      "roleId": "role-admin",
+      "reportingTo": "",
+      "scope": "organization",
+      "position": "Administrator",
+      "capacity": 40
+    }
+  ]
+}

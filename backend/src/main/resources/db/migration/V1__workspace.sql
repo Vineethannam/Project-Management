@@ -1,0 +1,33 @@
+CREATE TABLE workspace_lock (id INTEGER PRIMARY KEY);
+INSERT INTO workspace_lock(id) VALUES(1);
+CREATE TABLE entity (
+ id VARCHAR(64) PRIMARY KEY,
+ kind VARCHAR(40) NOT NULL,
+ title VARCHAR(250) NOT NULL,
+ status VARCHAR(40) NOT NULL,
+ owner_id VARCHAR(64),
+ project_id VARCHAR(64),
+ payload TEXT NOT NULL,
+ version INTEGER NOT NULL DEFAULT 0,
+ created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP,
+ updated_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+CREATE INDEX entity_kind_idx ON entity(kind);
+CREATE INDEX entity_scope_idx ON entity(kind, project_id, owner_id);
+CREATE TABLE account (
+ user_id VARCHAR(64) PRIMARY KEY REFERENCES entity(id),
+ email VARCHAR(254) NOT NULL UNIQUE,
+ password_hash VARCHAR(100) NOT NULL,
+ failed_attempts INTEGER NOT NULL DEFAULT 0,
+ locked_until TIMESTAMP WITH TIME ZONE
+);
+CREATE TABLE uploaded_file (
+ id VARCHAR(64) PRIMARY KEY,
+ entity_id VARCHAR(64) NOT NULL REFERENCES entity(id),
+ filename VARCHAR(250) NOT NULL,
+ media_type VARCHAR(150) NOT NULL,
+ storage_key VARCHAR(64) NOT NULL UNIQUE,
+ bytes BIGINT NOT NULL,
+ uploaded_by VARCHAR(64) NOT NULL REFERENCES entity(id),
+ created_at TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
