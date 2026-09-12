@@ -1,1 +1,4 @@
-export function GET() { return Response.json({ connected: !!process.env.SPRING_API_URL }, { headers: { 'cache-control': 'no-store' } }); }
+export function GET() { 
+  const url = process.env.SPRING_API_URL || 'https://project-project-management-api.onrender.com';
+  return Response.json({ connected: !!url }, { headers: { 'cache-control': 'no-store' } }); 
+}

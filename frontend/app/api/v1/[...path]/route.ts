@@ -1,6 +1,6 @@
 // Same-origin BFF: preserves Spring's session and CSRF protections.
 async function proxy(request: Request) {
-    const base = process.env.SPRING_API_URL;
+    const base = process.env.SPRING_API_URL || 'https://project-project-management-api.onrender.com';
     if (!base)
         return Response.json({ message: 'The workspace service is not configured. Contact your administrator.' }, { status: 503 });
     const url = new URL(request.url);
